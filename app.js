@@ -28,7 +28,7 @@ app.use((error,req,res,next)=>{
     const message = error.message;
     res.status(status).json({message:message});
 })
-mongoose.connect("mongodb+srv://adminuser:adminuser@cluster0.ecetk.gcp.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true }
+mongoose.connect("mongodb+srv://jc3356:S3rverCl0ud2023$@cluster0.bcouz0k.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true }
 ).then(result =>{
     app.listen(process.env.PORT || 8080); 
 }).catch(err =>{
